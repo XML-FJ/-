@@ -2,7 +2,7 @@
 
 
 * 题目：
-![题目 ](vx_images/120511150766.png =692x)
+[两个栈实现一个队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 
 * 相关点
 栈 队列的数据结构 
