@@ -8,7 +8,7 @@
 栈 队列的数据结构 
 C++ 栈与队列底层实现
 
-* ** stack 先入后出**
+** stack 先入后出**
 底层其实是利用顺序容器构造的一种容器适配器。
 `  template<typename _Tp, typename _Sequence = deque<_Tp> >`
 
