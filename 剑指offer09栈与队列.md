@@ -16,13 +16,12 @@ C++ 栈与队列底层实现
 
 很明显，实现栈是通过双端队列的接口来提供不同的功能接口。
 
-` 
 * top() 
 * push(valueType x)
 * pop()
 * swap(stack& _s)
 * empty()
-* emplace()`
+* emplace()
 
 点：
 栈是一种先入后出的结构，在C++ STL 库中，利用其已实现的deque构造这种栈。
