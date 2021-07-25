@@ -9,10 +9,13 @@
 C++ 栈与队列底层实现
 
 * **stack 先入后出**
+
 底层其实是利用顺序容器构造的一种容器适配器。
+
 `  template<typename _Tp, typename _Sequence = deque<_Tp> >`
 
 很明显，实现栈是通过双端队列的接口来提供不同的功能接口。
+
 `* top() 
 * push(valueType x)
 * pop()
